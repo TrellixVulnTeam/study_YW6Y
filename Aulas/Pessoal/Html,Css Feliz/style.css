@@ -2,46 +2,14 @@
   margin: 0;
   padding: 0;
 }
+body {
+  font-family: 'Fira Code', Arial, Helvetica, sans-serif;
+}
 
-header {
+.header {
   display: flex;
   justify-content: space-between;
   background-color: #7c5e99;
   border-bottom: 10px solid black;
   padding: 10px 20px;
-}
-
-a {
-  display: inline-flex;
-  align-items: center;
-  color: white;
-  font-family: 'Fira Code', Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  text-decoration: none;
-  margin-right: 30px;
-}
-
-a::before {
-  content: '';
-  display: inline-block;
-  background-color: #f25a70;
-  height: 10px;
-  width: 10px;
-  margin-right: 10px;
-}
-
-.button {
-  background-color: #f25a70;
-  height: 60px;
-  width: 170px;
-  display: inline-block;
-  line-height: 60px;
-  box-shadow: 5px 5px 0px #000000;
-  margin-right: 0;
-  transition: transform 900ms;
-}
-
-.button:hover {
-  transform: translateX(10px) rotate(10deg) translateY(5px);
 }
