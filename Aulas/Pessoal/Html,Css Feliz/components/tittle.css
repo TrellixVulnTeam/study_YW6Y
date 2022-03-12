@@ -1,0 +1,25 @@
+#boxTittle {
+  display: inline-block;
+  background-color: #3a4042;
+  padding: 42px 40px;
+  text-align: center;
+}
+
+#boxTittle h1 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 30px;
+  color: #f25a70;
+  font-weight: 400;
+  text-shadow: 4px 4px 0 black;
+  margin-bottom: 28px;
+}
+
+h2 {
+  font-family: 'Press Start 2P';
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-shadow: 4px 4px 0 black;
+}
