@@ -1,6 +1,6 @@
 .boxTittle {
   display: inline-block;
-  background-color: #3a4042;
+  /* background-color: #423b6e; */
   padding: 42px 40px;
   text-align: center;
 }
@@ -8,15 +8,15 @@
 .tittle {
   font-family: 'Press Start 2P', cursive;
   font-size: 30px;
-  color: #f25a70;
+  color: #f59098;
   font-weight: 400;
   text-shadow: 4px 4px 0 black;
-  margin-bottom: 28px;
+  margin-bottom: 18px;
 }
 
 .subtittle {
   font-family: 'Press Start 2P';
-  color: white;
+  color: #fee8f5;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;

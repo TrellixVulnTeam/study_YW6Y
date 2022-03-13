@@ -11,7 +11,7 @@
 .action::before {
   content: '';
   display: inline-block;
-  background-color: #f25a70;
+  background-color: #f59098;
   height: 10px;
   width: 10px;
   margin-right: 10px;

@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="components/tittle.css" />
+    <link rel="stylesheet" href="components/section.css" />
+
     <link rel="stylesheet" href="components/action.css" />
     <link rel="stylesheet" href="components/button.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -18,7 +20,7 @@
   </head>
   <body>
     <header class="header">
-      <img src="images/logo.svg" alt="" />
+      <div class="logo">Caique</div>
       <nav>
         <a class="action" href="" lang="en">Skills</a>
         <a class="action" href="">Projetos</a>
@@ -27,11 +29,15 @@
         <a class="button" href="" lang="en">Download CV</a>
       </nav>
     </header>
-    <div class="boxTittle">
-      <h1 class="tittle">Carlos Henrique</h1>
-      <h2 class="subtittle">FrontEnd/BackEnd Developer</h2>
-    </div>
-    <a class="button" href="" lang="en">Download CV</a>
-    <a class="button" href="" lang="en">Download CV</a>
+    <section class="banner">
+      <div class="sectionComponents">
+        <div class="boxTittle">
+          <h1 class="tittle">Carlos Henrique</h1>
+          <h2 class="subtittle">FrontEnd/BackEnd Developer</h2>
+        </div>
+        <a id="download" class="button" href="" lang="en">Download CV</a>
+        <a id="contatos" class="button" href="" lang="en">Contatos</a>
+      </div>
+    </section>
   </body>
 </html>
