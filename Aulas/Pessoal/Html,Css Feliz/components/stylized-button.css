@@ -1,4 +1,4 @@
-.button {
+.stylized-button {
   display: inline-block;
   background-color: #f59098;
   box-shadow: 5px 5px 0px black;
@@ -12,6 +12,6 @@
   text-decoration: none;
 }
 
-.button:hover {
+.stylized-button:hover {
   transform: translateX(10px) rotate(10deg) translateY(5px);
 }

@@ -1,7 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-}
 body {
   font-family: 'Fira Code', Arial, Helvetica, sans-serif;
 }
@@ -31,7 +27,7 @@ body {
   z-index: 1;
 }
 
-.logo {
+.name-logo {
   font-family: 'Press Start 2P', cursive;
   display: inline-block;
   font-size: 40px;
@@ -41,6 +37,16 @@ body {
   z-index: 2;
   right: 30;
   transition: 3s cubic-bezier(1, 0.38, 0.26, 1.73);
+  animation: 2s ease-out 0s 1 letterGrow;
+}
+
+@keyframes letterGrow {
+  0% {
+    font-size: 5px;
+  }
+  100% {
+    font-size: 40px;
+  }
 }
 
 .logo:hover {

@@ -1,4 +1,4 @@
-.action {
+.header-ancor {
   display: inline-flex;
   align-items: center;
   color: white;
@@ -8,8 +8,8 @@
   margin-right: 30px;
 }
 
-.action::before {
-  content: '';
+.header-ancor::before {
+  content: ' ';
   display: inline-block;
   background-color: #f59098;
   height: 10px;

@@ -1,11 +1,12 @@
-.boxTittle {
+.tittle-wrapper {
   display: inline-block;
   /* background-color: #423b6e; */
-  padding: 42px 40px;
   text-align: center;
+  margin-top: 140px;
+  margin-left: 50px;
 }
 
-.tittle {
+.main-tittle {
   font-family: 'Press Start 2P', cursive;
   font-size: 30px;
   color: #f59098;

@@ -1,0 +1,28 @@
+.section.-projects {
+  background-color: #f59098;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.project-organizer {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(220px, auto));
+  row-gap: 50px;
+}
+
+.project-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.project-wrapper .main-tittle {
+  font-size: 25px;
+  padding: 0;
+  margin: 5px;
+}
+
+.project {
+  height: 220px;
+  width: 220px;
+  box-shadow: 5px 5px #fff;
+}
