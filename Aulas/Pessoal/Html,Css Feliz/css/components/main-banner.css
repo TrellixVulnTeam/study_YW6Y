@@ -1,5 +1,5 @@
-.banner {
-  background: url(../images/background.jpg) no-repeat;
+.main-banner {
+  background: url(../../images/background.jpg) no-repeat;
   background-size: 100%;
   height: 100vh;
   border-bottom: 10px solid #423b6e;

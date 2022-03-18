@@ -1,20 +1,16 @@
-.section.-projects {
-  background-color: #f59098;
-  padding-left: 200px;
-  padding-right: 200px;
-}
-
 .project-organizer {
   display: grid;
-  grid-template-columns: repeat(3, minmax(220px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(220px, auto));
   row-gap: 50px;
+  column-gap: 50px;
+  justify-content: center;
 }
 
-.project-wrapper {
+/* .project-wrapper {
   display: flex;
   flex-direction: column;
-  text-align: center;
-}
+} */
+
 .project-wrapper .main-tittle {
   font-size: 25px;
   padding: 0;

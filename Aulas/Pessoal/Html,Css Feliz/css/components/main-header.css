@@ -2,7 +2,7 @@ body {
   font-family: 'Fira Code', Arial, Helvetica, sans-serif;
 }
 
-.header {
+.main-header {
   display: flex;
   justify-content: space-between;
   background-color: #78a0c3;
@@ -10,7 +10,7 @@ body {
   padding: 10px 20px;
 }
 
-.header::before {
+.main-header::before {
   content: '';
   position: absolute;
   background: rgb(255, 215, 215);
@@ -49,6 +49,6 @@ body {
   }
 }
 
-.logo:hover {
+.name-logo:hover {
   transform: translateY(700px) rotate(180deg);
 }

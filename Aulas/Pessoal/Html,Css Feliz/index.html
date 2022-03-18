@@ -4,18 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="components/resets.css" />
-    <link rel="stylesheet" href="components/header.css" />
-    <link rel="stylesheet" href="components/header-ancor.css" />
-    <link rel="stylesheet" href="components/stylized-button.css" />
-    <link rel="stylesheet" href="components/banner.css" />
-    <link rel="stylesheet" href="components/main-tittle.css" />
-    <link rel="stylesheet" href="components/section.css" />
-    <link rel="stylesheet" href="components/skills.css" />
-    <link rel="stylesheet" href="components/progress-bar.css" />
-    <link rel="stylesheet" href="components/projects.css" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="CSS/components/resets.css" />
+    <link rel="stylesheet" href="CSS/components/main-header.css" />
+    <link rel="stylesheet" href="CSS/components/header-ancor.css" />
+    <link rel="stylesheet" href="CSS/components/stylized-button.css" />
+    <link rel="stylesheet" href="CSS/components/main-banner.css" />
+    <link rel="stylesheet" href="CSS/components/main-tittle.css" />
+    <link rel="stylesheet" href="CSS/components/main-section.css" />
+    <link rel="stylesheet" href="CSS/components/skills.css" />
+    <link rel="stylesheet" href="CSS/components/progress-bar.css" />
+    <link rel="stylesheet" href="CSS/components/main-projects.css" />
+    <link rel="stylesheet" href="CSS/components/sobre.css" />
+    <link rel="stylesheet" href="CSS/components/main-carousel.css" />
+    <link rel="stylesheet" href="CSS/components/button-arrow.css" />
+    <link rel="preconnect" href="CSS/https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;700&family=Press+Start+2P&display=swap"
@@ -24,7 +26,7 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="header">
+    <header class="main-header">
       <div class="name-logo">Caique</div>
       <nav>
         <a class="header-ancor" href="" lang="en">Skills</a>
@@ -34,7 +36,7 @@
         <a class="stylized-button" href="" lang="en">Download CV</a>
       </nav>
     </header>
-    <section class="banner">
+    <section class="main-banner">
       <div class="tittle-wrapper">
         <h1 class="main-tittle">Carlos Henrique</h1>
         <h2 class="subtittle">FrontEnd/BackEnd Developer</h2>
@@ -46,7 +48,7 @@
         </div>
       </div>
     </section>
-    <section class="section">
+    <section class="main-section">
       <h2 class="main-tittle -second">Skills</h2>
       <div class="skill-wrapper">
         <article class="tec-bar-wrapper">
@@ -93,22 +95,72 @@
         </article>
       </div>
     </section>
-    <section class="section -projects">
+    <section class="main-section -projects">
       <h3 class="main-tittle -second">Projetos</h3>
       <div class="project-organizer">
-        <article class="project-wrapper">
-          <h3 class="main-tittle -second">NLW-BADGE</h3>
+        <figure class="project-wrapper">
+          <figcaption class="main-tittle -second">NLW-BADGE</figcaption>
           <a href="">
             <img class="project" src="images/NWL_BADGE.jpeg" alt="Foto" />
           </a>
-        </article>
-        <article class="project-wrapper">
-          <h3 class="main-tittle -second">YT-CLONE</h3>
+        </figure>
+        <figure class="project-wrapper">
+          <figcaption class="main-tittle -second">YT-CLONE</figcaption>
           <a href="">
             <img class="project" src="images/youtube.jpeg" alt="Foto" />
           </a>
-        </article>
+        </figure>
       </div>
     </section>
+    <section class="main-section -sobre">
+      <h3 class="main-tittle -second">Sobre</h3>
+      <p class="main-description">
+        Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já
+        trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI
+        como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho
+        conforme o percorre. Marco também tem uma crescente presença em
+        comunidades de UX e Front-end, trabalhando para uní-las, palestra em
+        empresas e eventos como o WebBR, escreve em diversos blogs como o da
+        Caelum, o Pinceladas da Web e seu Medium, quando não está jogando
+        Airsoft ou trocando ideias com amigos.
+      </p>
+      <section class="main-carousel">
+        <button class="button-arrow -left" onclick="moveLeft()">
+          <span class="content">left</span>
+        </button>
+        <div class="items">
+          <div class="elements" id="movement">
+            <figure class="node-card">
+              <figcaption class="tittle">2012</figcaption>
+              <div class="logo">
+                <img src="images/logo-locaweb.svg" alt="Logo Locaweb" />
+              </div>
+            </figure>
+            <figure class="node-card">
+              <figcaption class="tittle">2012</figcaption>
+              <div class="logo">
+                <img src="images/logo-locaweb.svg" alt="Logo Locaweb" />
+              </div>
+            </figure>
+            <figure class="node-card">
+              <figcaption class="tittle">2012</figcaption>
+              <div class="logo">
+                <img src="images/logo-locaweb.svg" alt="Logo Locaweb" />
+              </div>
+            </figure>
+            <figure class="node-card">
+              <figcaption class="tittle">2012</figcaption>
+              <div class="logo">
+                <img src="images/logo-locaweb.svg" alt="Logo Locaweb" />
+              </div>
+            </figure>
+          </div>
+        </div>
+        <button class="button-arrow -right" onclick="moveRight()">
+          <span class="content">rigth</span>
+        </button>
+      </section>
+    </section>
+    <script src="js/componets/script.js"></script>
   </body>
 </html>
