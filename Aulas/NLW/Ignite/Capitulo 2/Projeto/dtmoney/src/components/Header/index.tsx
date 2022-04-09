@@ -7,15 +7,13 @@ interface Headerprops {
 
 export function Header(props: Headerprops) {
   return (
-    <>
-      <Container>
-        <Content>
-          <img src={logoImg} alt="" />
-          <button type="button" onClick={props.openModalFunction}>
-            Button
-          </button>
-        </Content>
-      </Container>
-    </>
+    <Container>
+      <Content>
+        <img src={logoImg} alt="" />
+        <button type="button" onClick={props.openModalFunction}>
+          Button
+        </button>
+      </Content>
+    </Container>
   )
 }
