@@ -25,16 +25,16 @@ margin: 4rem;
         color: var(--title);
       }
 
-      .deposit{
-        color: var(--green);
-      }
-
-      .withdraw{
-        color: var(--red);
-      }
-
+      
+    }
+    
+    .deposit{
+      color: var(--green);
     }
 
+    .withdraw{
+      color: var(--red);
+    }
     
   }
 `
