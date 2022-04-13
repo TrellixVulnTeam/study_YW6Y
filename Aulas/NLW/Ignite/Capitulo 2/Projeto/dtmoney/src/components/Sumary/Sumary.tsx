@@ -11,8 +11,7 @@ export function Sumary() {
   transactions.map(data => {
     if (data.type === 'deposit') {
       income += data.amount
-    }
-    if (data.type === 'withdraw') outcome -= data.amount
+    } else outcome -= data.amount
   })
   return (
     <Container>
