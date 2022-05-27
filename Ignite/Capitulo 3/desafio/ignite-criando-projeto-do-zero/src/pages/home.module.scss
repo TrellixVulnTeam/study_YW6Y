@@ -1,0 +1,53 @@
+.container {
+  padding-top: 5rem;
+  width: 700px;
+  margin: 0 auto;
+  a {
+    cursor: pointer;
+    text-decoration: none;
+  }
+  button {
+    margin-top: 4rem;
+    font-size: 1.125rem;
+    font-weight: 300;
+    color: #ff57b2;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+.logo {
+  margin-bottom: 2rem;
+}
+
+.content {
+  margin-top: 3rem;
+  h1 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #f8f8f8;
+  }
+
+  p {
+    font-size: 1.125rem;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+    color: #d7d7d7;
+  }
+}
+.info {
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: flex;
+  width: fit-content;
+  time {
+    margin-right: 1.625rem;
+    margin-left: 0.5rem;
+  }
+  span {
+    margin-left: 0.5rem;
+  }
+}

@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.post {
+  width: 46.875rem;
+  margin: 0 auto;
+  color: #d7d7d7;
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #f8f8f8;
+    margin: 5rem 0 1.5rem;
+  }
+
+  h2 {
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: #f8f8f8;
+    margin: 3rem 0;
+    padding-left: 1.5rem;
+  }
+
+  p {
+    margin: 1.5rem 0;
+    padding-left: 1.5rem;
+  }
+
+  li {
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+  }
+
+  a {
+    color: #ff57b2;
+  }
+}
+
+.info {
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: flex;
+  width: fit-content;
+  time {
+    margin-right: 1.625rem;
+    margin-left: 0.5rem;
+  }
+  span {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+}
