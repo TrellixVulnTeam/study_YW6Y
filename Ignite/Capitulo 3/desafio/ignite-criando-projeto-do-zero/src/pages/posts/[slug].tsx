@@ -80,6 +80,7 @@ export const getStaticProps: GetStaticProps = async previewData => {
   const slug = previewData.params?.slug
 
   const request = await client.getByUID('posts', String(slug))
+  console.log(request.data)
 
   const post = {
     first_publication_date: new Date(

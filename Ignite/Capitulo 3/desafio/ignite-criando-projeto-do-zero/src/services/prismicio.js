@@ -9,7 +9,6 @@ export function createClient(config = {}) {
   const client = prismic.createClient(endpoint, {
     ...config
   })
-  console.log(config.previewData)
   enableAutoPreviews({
     client,
     previewData: config.previewData,

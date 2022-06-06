@@ -4,14 +4,14 @@ import { PaginationItem } from './PaginationItem'
 export function Pagination() {
   return (
     <Stack
-      direction="row"
+      direction={['column', 'row']}
       mt="8"
       justify={'space-between'}
       align="center"
       spacing={'6'}
     >
-      <Box>
-        <strong>1-10</strong> <strong>de</strong> <strong>100</strong>
+      <Box whiteSpace="nowrap">
+        <strong>1</strong> - <strong>10</strong> de <strong>100</strong>
       </Box>
       <ButtonGroup>
         <PaginationItem pageNumber={1} />
